@@ -10,7 +10,7 @@ st.write(
     """
 )
 
-day_df = pd.read_csv("penyewaan_sepeda.csv")
+day_df = pd.read_csv("Penyewaan_Sepeda.csv")
 
 def create_BarPenyewaSepeda_SetiapMusim_df(df):
     plt.figure(figsize=(8,5))
